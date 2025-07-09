@@ -1,0 +1,10 @@
+# 빌드 아티팩트
+**/dist/
+**/node_modules/
+
+# 환경 변수
+.env
+*.local
+
+# 로그
+*.log

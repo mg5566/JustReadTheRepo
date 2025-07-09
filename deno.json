@@ -1,3 +1,8 @@
 {
+  "tasks": {
+    "dev:client": "echo 'Client development'",
+    "dev:server": "echo 'Server development'",
+    "dev": "deno task dev:client && deno task dev:server"
+  },
   "importMap": "./import_map.json"
 }

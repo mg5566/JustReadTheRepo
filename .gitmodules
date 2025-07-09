@@ -1,6 +1,8 @@
 [submodule "client"]
 	path = client
-	url = ./client
+	url = git@github.com:mg5566/JustReadTheRepo-client.git
+	branch = master
 [submodule "server"]
 	path = server
-	url = ./server
+	url = git@github.com:mg5566/JustReadTheRepo-server.git
+	branch = master

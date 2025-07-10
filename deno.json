@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev:client": "echo 'Client development'",
+    "dev:client": "deno task --cwd apps/client dev",
     "dev:server": "echo 'Server development'",
     "dev": "deno task dev:client && deno task dev:server"
   },
